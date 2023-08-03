@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header > * {
+  padding:1rem;
+}
+
+.footer {
+  position:fixed;
+  bottom:0;
+  width:100vw;
+  height:30px;
+  text-align: center;
+  font-weight: lighter;
+  padding:0.2rem;
+}
+
+.page-content {
+  overflow-y: scroll;
+  padding-bottom:35px;
+}
+
+.docs {
+  text-align: left;
+  padding:3%;
+}
+
+.table-header {
+  text-align: left;
+}
+
+.filter-bar > * {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.github-icon {
+  width:1em;
+  height:1em;
+}
+
+.pubmed-icon {
+  width:1.5em;
+  height:1.5em;
+}
+
+.article-row {
+  text-align: left;
+  border-style:solid;
+  border-color: lightgrey;
+  border-width: 0.05rem;
+  border-radius: 0.5rem;
+  margin-top:0.5%;
+  margin-bottom:0.5%;
+}
+
+.article-card {
+  text-align:left;
+}
+
+.padded {
+  padding:1rem;
+}
+
+
+
